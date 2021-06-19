@@ -1,0 +1,92 @@
+body {
+  max-width: 1000px;
+
+  margin: auto;
+  margin-top: 2rem;
+  background: blueviolet;
+  content: center;
+}
+#hero2 {
+  width: 100%;
+  padding-top: 20px;
+  /* height: 100vh; */
+  background: #0b132a;
+}
+
+#hero2 .container {
+  padding-top: 20px;
+}
+
+#hero2 h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+#hero2 h3 {
+  color: rgba(255, 255, 255, 0.82);
+  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+#hero2 h1 .uplift-gradient {
+  /* font-size: 72px; */
+  background: -webkit-linear-gradient(#f87e40, #ec018b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#hero2 li {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+/*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+
+/* Desktop Navigation */
+
+.nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-menu > ul {
+  display: flex;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  padding: 10px 0 10px 28px;
+}
+
+.nav-menu a {
+  display: block;
+  position: relative;
+  color: #ffffff;
+  transition: 0.3s;
+  font-size: 3rem;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  /* padding-top: 0.7em; */
+  text-decoration: none;
+}
+
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  color: #ec008b;
+  border-top: 2px solid #ec008b;
+}
+
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
+  color: #ec008b;
+  /* font-weight: bold; */
+}

@@ -1,0 +1,49 @@
+body {
+  max-width: 1000px;
+
+  margin: auto;
+  margin-top: 7rem;
+  background: #4568dc;
+  background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+  background: linear-gradient(to right, #b06ab3, #4568dc);
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+/* .card {
+  height: 10rem;
+} */
+.section-team {
+  font-family: "Poppins", sans-serif;
+  padding: 80px 0;
+}
+
+.team-member a:hover {
+  color: #ffffff;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.team-member a {
+  color: #000000;
+  text-decoration: none !important;
+}
+.btn-dark {
+  margin: 2rem 5rem;
+  width: 125px;
+  height: 70px;
+}
+.btn-dark a {
+  color: #ffffff;
+  text-decoration: none !important;
+}
+footer {
+  margin: 5rem;
+}

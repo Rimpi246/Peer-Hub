@@ -1,0 +1,113 @@
+body {
+  max-width: 1000px;
+
+  margin: auto;
+  margin-top: 7rem;
+  background: blueviolet;
+  content: center;
+}
+#post {
+  padding-top: 20rem;
+}
+#existing-posts {
+  margin-top: 20rem;
+}
+#post-new {
+  height: 4rem;
+  width: 60rem;
+  margin-bottom: 2rem;
+}
+#discussion-btn {
+  height: 4rem;
+  width: 6rem;
+}
+/* #post1 {
+  position: absolute;
+
+  background-color: #ffffff;
+  width: 20rem;
+} */
+.left {
+  text-align: left;
+  float: left;
+  max-width: max-content;
+  padding: 0 2rem;
+
+  border-radius: 5%;
+}
+.right {
+  max-width: max-content;
+  padding: 0 2rem;
+  border-radius: 5%;
+  text-align: left;
+  float: left;
+}
+#q {
+  border-radius: 2%;
+  max-width: max-content;
+  background-color: #9dcbe0;
+  float: left;
+  margin-bottom: 1rem;
+  padding: 1%;
+}
+#comment {
+  border-radius: 2%;
+  max-width: max-content;
+  background-color: #ffffff;
+  float: left;
+  padding: 1%;
+  margin-bottom: 2.5rem;
+}
+
+#qAsker {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+/*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+
+/* Desktop Navigation */
+
+.nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-menu > ul {
+  display: flex;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  padding: 10px 0 10px 28px;
+}
+
+.nav-menu a {
+  display: block;
+  position: relative;
+  color: #ffffff;
+  transition: 0.3s;
+  font-size: 3rem;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 0.7em;
+  text-decoration: none;
+}
+
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  color: #ec008b;
+  border-top: 2px solid #ec008b;
+}
+
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
+  color: #ec008b;
+  /* font-weight: bold; */
+}
